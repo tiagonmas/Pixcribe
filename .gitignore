@@ -1,0 +1,47 @@
+# Build output
+bin/
+obj/
+out/
+artifacts/
+
+# User/local IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Local configuration and secrets
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+
+# Test results and coverage
+TestResults/
+coverage/
+coverage.*
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Pixcribe local output
+pixcribe-cache/
+pixcribe-report*.json
+pixcribe-report*.csv
+
