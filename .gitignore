@@ -3,6 +3,9 @@ bin/
 obj/
 out/
 artifacts/
+publish/
+Release/
+Debug/
 
 # User/local IDE files
 .vs/
@@ -33,7 +36,10 @@ coverage.*
 
 # NuGet
 *.nupkg
+*.snupkg
 packages/
+project.assets.json
+project.nuget.cache
 
 # OS files
 Thumbs.db
@@ -44,4 +50,11 @@ Desktop.ini
 pixcribe-cache/
 pixcribe-report*.json
 pixcribe-report*.csv
+pixcribe-*.html
+*-pixcribe-face-*.jpg
+*-pixcribe-face-*.jpeg
+*-pixcribe-face-*.png
 
+# Local image test folders
+sample-images/
+test-images/
