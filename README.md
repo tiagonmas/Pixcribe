@@ -17,6 +17,8 @@ The first version supports:
 - One model-specific Pixcribe HTML report per image folder
 - Optional local face crop extraction with OpenCV
 
+See [LICENSING.md](LICENSING.md) for project license status and third-party dependency license notes.
+
 ## Metadata Written
 
 Pixcribe writes:
